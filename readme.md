@@ -209,11 +209,3 @@ instead of showing it directly in the template. It dumps the arguments, or when 
 {{ debug() }}
 {{ debug(user, categories) }}
 ```
-
-The Stopwatch extension adds a [stopwatch tag](http://symfony.com/blog/new-in-symfony-2-4-a-stopwatch-tag-for-twig)  similar to the one in Symfony/Silex Twigbridge.
-
-```twig
-{% stopwatch "foo" %}
-    …some things that gets timed
-{% endstopwatch %}
-```
